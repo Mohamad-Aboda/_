@@ -33,10 +33,12 @@ body {
   color: green;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
-
+li{
+  list-style: none;
+}
 
 @media only screen and (max-width: 600px) {
   .container {
