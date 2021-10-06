@@ -1,0 +1,72 @@
+#particles-js {
+  position: absolute;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  z-index: -1;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  padding: 64px;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  color: grey;
+}
+
+body {
+  background-color: #1d1f21;
+  color: #c9cacc;
+}
+
+.myhead {
+  color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+  }
+
+  .container-fluid {
+    padding: 0px;
+    margin: 0px;
+  }
+  .normal-content {
+    margin: 0px 14px 0px 14px;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .normal-content .line-numbers {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .display-4 {
+    font-size: xx-large;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: x-large;
+    padding-top: 2px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .table {
+    width: 100%;
+    margin: auto;
+  }
+}
