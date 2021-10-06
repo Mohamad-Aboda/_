@@ -65,11 +65,4 @@ body {
   p {
     font-size: 14px;
   }
- .table {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    display: flex;
-  }
 }
