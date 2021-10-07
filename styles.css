@@ -1,11 +1,23 @@
-#particles-js {
-  position:absolute;
-  /* width: -webkit-fill-available;
-  height: -webkit-fill-available; */
+/* #particles-js {
   width:100%;
-  height: 100%;
+  height: 100%; 
+  position: absolute; 
+  z-index: -1;  
+  top: 0;
+  left: 0
+} */
+#particles-js {
+  position:fixed;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  width:100%;
+  height: 100%; 
   z-index:-1;
-}
+} 
+
+
+
+
 
 .container {
   background: #ecf4ff;
@@ -74,4 +86,6 @@ li {
   p {
     font-size: 14px;
   }
+
 }
+
